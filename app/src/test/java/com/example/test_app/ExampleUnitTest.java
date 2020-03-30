@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
 public class ExampleUnitTest {
     @Test
     public void addition_isInCorrect() {
-        assertEquals(5, 2 + 2);
+        assertNotEquals(5, 2 + 2);
     }
     @Test
     public void addition_isCorrect() {
